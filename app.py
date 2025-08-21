@@ -1,5 +1,3 @@
-
-
 import os
 import openai
 import requests
@@ -131,3 +129,4 @@ if prompt := st.chat_input("メッセージを入力してください"):
         st.toast(message)
 
 st.markdown('</div>', unsafe_allow_html=True)
+
